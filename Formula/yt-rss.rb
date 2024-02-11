@@ -2,7 +2,7 @@ class YtRss < Formula
   desc "Simple RSS server for YT"
   homepage "https://github.com/levitatingpineapple/yt-rss"
   url "https://github.com/levitatingpineapple/yt-rss/releases/download/0.2.0/yt-rss.tar.gz"
-  sha256 "a5f640e09e9e8429f0db1b553b456f477d630a13333401a2c6e88f8e6b7998e7"
+  sha256 "52514e993550b657ade7b0770672117051334c684e8250a882193dcbb681b158"
   version "0.2.0"
   depends_on "yt-dlp"
   
