@@ -1,9 +1,9 @@
 class YtRss < Formula
   desc "Simple RSS server for YT"
   homepage "https://github.com/levitatingpineapple/yt-rss"
-  url "https://github.com/levitatingpineapple/yt-rss/releases/latest/download/yt-rss.tar.gz"
-  sha256 "6b29cff18a9f25a2748103ef9df62ffc94cb17787b7ac237400e23ceb83257a1"
-  version "0.1.0"
+  url "https://github.com/levitatingpineapple/yt-rss/releases/download/0.2.0/yt-rss.tar.gz"
+  sha256 "a5f640e09e9e8429f0db1b553b456f477d630a13333401a2c6e88f8e6b7998e7"
+  version "0.2.0"
   depends_on "yt-dlp"
   
   def install
@@ -16,5 +16,4 @@ class YtRss < Formula
     keep_alive true
     interval 10
   end
-  
 end
